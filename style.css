@@ -1,0 +1,78 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffacd; /* Amarelo bem claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffb6c1; /* Cor rosada */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+     margin: 0;
+     position: relative;
+}
+
+/* Menu */
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.menu ul {
+    /*list-style-type: none;*/
+    padding: 0;
+    /*display: none;*/
+}
+
+.menu ul li {
+    background-color: #ffb6c1;
+    padding: 10px;
+}
+
+.menu ul li:hover {
+    background-color: #90ee90; /* Verde claro */
+    cursor: pointer;
+}
+
+.menu-item {
+    background-color: #ffb6c1;
+    padding: 10px;
+}
+
+.menu-item:hover {
+    background-color: #90ee90; /* Verde claro */
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ffb6c1; /* Cor rosada */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Botões */
+button {
+    background-color: #ffb6c1; /* Cor rosada */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #90ee90; /* Verde claro */
+}

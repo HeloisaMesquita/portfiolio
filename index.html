@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <button onclick="toggleMenu()">Menu</button>
+        <div id="menu" style="display:none;">
+            <ul>
+                <li class="menu-item" onclick="location.href='matematica.html'">Matemática</li>
+                <li class="menu-item" onclick="location.href='fisica.html'">Física</li>
+                <li class="menu-item" onclick="location.href='quimica.html'">Química</li>
+            </ul>
+        </div>
+        <h1>Portfólio</h1>
+    </header>
+
+    <main>
+        <h2>Bem-vindo ao Portfólio</h2>
+        <p>Este portfólio contém informações sobre as matérias de Matemática, Física e Química.</p>
+    </main>
+
+    <footer>
+        <p>Colégio CEP - Turma 3°J</p>
+    </footer>
+</body>
+</html>
